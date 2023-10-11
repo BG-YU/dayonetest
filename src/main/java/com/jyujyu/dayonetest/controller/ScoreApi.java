@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jyujyu.dayonetest.controller.request.SaveExamRequest;
 import com.jyujyu.dayonetest.controller.response.ExamFailStudentResponse;
 import com.jyujyu.dayonetest.controller.response.ExamPassStudentResponse;
+import com.jyujyu.dayonetest.model.StudentFail;
+import com.jyujyu.dayonetest.service.RedisService;
 import com.jyujyu.dayonetest.service.StudentScoreService;
 
 import lombok.RequiredArgsConstructor;
